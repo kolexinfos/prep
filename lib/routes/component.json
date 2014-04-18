@@ -1,0 +1,14 @@
+{
+  "name": "routes",
+  "repo": "cuesstack/routes",
+  "description": "Routing for all parts of the RestAPI",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}

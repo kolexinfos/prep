@@ -1,0 +1,19 @@
+{
+  "name": "ui-theme",
+  "repo": "cuestack/ui-theme",
+  "description": "All css rules live here including rules for normalizing css box model and responsive layout",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "files":["fonts"],
+  "styles": [
+    "ui-theme.css",
+    "global.css",
+    "normalize.css",
+    "preptitude.css",
+    "signup.css",
+    "style.css"
+  ]
+}

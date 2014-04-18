@@ -1,0 +1,20 @@
+{
+  "name": "card-viewer",
+  "repo": "cuestack/card-viewer",
+  "description": "Card Viewer component displays questions as a deck of cards",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "templates": [
+    "template.html"
+  ],
+  "styles": [
+    "card-viewer.css"
+  ]
+}

@@ -1,0 +1,51 @@
+html, body{
+    background-color: #F7F7F7;
+    height: 100%;
+}
+
+#signup-content
+{
+    height: 100%;
+    background-color: #fff;
+}
+
+#signup-nav-wrap{
+    background-color: #FBAF17;
+    height: 60px;
+}
+
+#signup-nav{
+
+}
+
+#signup-nav div
+{
+    float: left;
+    padding: 18px;
+}
+#signup-nav #logo
+{
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 200;
+}
+
+#signup-nav div a{
+    color:#fff;
+}
+
+#signup-wrap{
+    height: 100%;
+}
+
+#signin-wrap div{
+    padding: 20px;
+    background-color: #fff;
+    width: 450px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin-left: -225px;
+    margin-top: -200px;
+}

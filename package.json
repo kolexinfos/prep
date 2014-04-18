@@ -1,0 +1,21 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "I:\\projects\\prep\\bin\\start.cmd"
+  },
+  "dependencies": {
+    "express": "3.5.1",
+    "jade": "*",
+    "mysql":"*",
+    "ejs":"*",
+    "consolidate":"*"
+  },
+  "devDependencies":{
+    "node-dev":"*",
+    "component":"*",
+    "grunt":"*",
+    "grunt-cli":"*"
+  }
+}

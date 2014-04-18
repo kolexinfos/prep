@@ -1,0 +1,20 @@
+{
+  "name": "question-editor",
+  "repo": "cuestack/question-editor",
+  "description": "Question editor component",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "templates": [
+    "template.html"
+  ],
+  "styles": [
+    "question-editor.css"
+  ]
+}

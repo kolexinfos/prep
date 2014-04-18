@@ -1,0 +1,20 @@
+{
+  "name": "home",
+  "repo": "cuestack/home",
+  "description": "Main Site component. Basically preptitude homepage",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "templates": [
+    "template.html"
+  ],
+  "styles": [
+    "home.css"
+  ]
+}

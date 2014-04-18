@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "repo": "cuestack/app",
+  "description": "Configuration for preptitude's angularJs Routes and App-Wide Controller",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "appConfig.js",
+    "appWideController.js"
+  ]
+}

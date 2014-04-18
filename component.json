@@ -1,0 +1,23 @@
+{
+  "name": "preptitude",
+  "repo": "cuestack/preptitude",
+  "description": "Preptitude Client App",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "frontend.js",
+  "scripts": [
+    "frontend.js"
+  ],
+  "paths":["lib"],
+  "local":[
+      "app",
+      "routes",
+      "question-editor",
+      "card-viewer",
+      "api",
+      "ui-theme"
+  ]
+}
