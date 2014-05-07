@@ -1,13 +1,14 @@
 <!doctype html>
-<html ng-app="Preptitude">
+<html>
 <head>
     <title>Preptitude - Preparing for an exam has never been more fun</title>
 
     <link rel="stylesheet" type="text/css" href="/build/build.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 </head>
-<body  ng-app="preptitude">
+<body  ng-app="Preptitude" ng-controller="LoginController">
 <div id="main">
+    <prep-signup ng-show="showDialog"></prep-signup>
     <div class="header-nav">
         <div class="container">
             <div class="left-nav">Preptitude</div>
@@ -17,7 +18,7 @@
                     <li><a href="#">How it works</a></li>
                     <li><a href="#">Pricing</a></li>
                     <li><a href="#">Sign in</a></li>
-                    <li><a class="signup" href="/signup">Sign up</a></li>
+                    <li><a ng-click="signup()" title="Sign Up" class="signup" href="#">Sign up</a></li>
                 </ul>
             </div>
             <div class="clearfix"></div>
@@ -54,12 +55,19 @@
     <div id="footer-nav">
     </div>
 </div>
-
-<script src="lib/jquery-1.11.0.min.js"></script>respond.min.js
-<script src="lib/respond.min.js"></script>
+<script src="build/build.js"></script>
+<script>
+    // Need to require this before Angular
+    var jQuery = $ = require('jquery');
+</script>
 <script src="lib/angular.js"></script>
 <script src="lib/angular-ui-router.min.js"></script>
-<script src="build/build.js"></script>
+<script src="lib/angular-object-store.js"></script>
+<script src="lib/jquery-1.11.0.min.js"></script>
+<script src="lib/respond.min.js"></script>
+<script>
+    require("preptitude");
+</script>
 </body>
 
 </html>

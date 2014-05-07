@@ -4,14 +4,23 @@
 var application = require("app")
 
 require("home");
-require("card-viewer");
+require("cardviewer");
 require("question-editor");
+require("login");
+require("signup")
 
 //top level application module
-var app = angular.module("preptitude",['ui-router','home','card-viewer','question-editor']);
+var app = angular.module('Preptitude',[
+  'ui.router',
+  'home',
+  'cardviewer',
+  'qEditor',
+  'login',
+  'signup'
+]);
 
 //application configuration and routes
-app.config(['$routeProvider','$locationProvider',application.config])
+app.config(['$stateProvider','$locationProvider',application.config])
 
 //main application controller
 app.controller('appController',application.controller);

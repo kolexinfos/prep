@@ -1,5 +1,5 @@
 
-build: components index.js card-viewer.css template.js
+build: components angular-object-store.js card-viewer.css template.js
 	@component build --dev
 
 template.js: template.html

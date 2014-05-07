@@ -8,11 +8,10 @@
 {
     font-family: 'Open Sans', sans-serif;
     position: absolute;
-    top:0;
-    left:0;
-    padding:40 0;
-    width:100%;
-    margin-left: -15px;
+    top: 0;
+    left: 0;
+    padding: 40px 0px;
+    width: 100%;
 }
 .clearfix{
     clear:both;

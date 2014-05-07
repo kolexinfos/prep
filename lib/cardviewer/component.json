@@ -1,6 +1,6 @@
 {
-  "name": "card-viewer",
-  "repo": "cuestack/card-viewer",
+  "name": "cardviewer",
+  "repo": "cuestack/cardviewer",
   "description": "Card Viewer component displays questions as a deck of cards",
   "version": "0.0.1",
   "keywords": [],
@@ -15,6 +15,6 @@
     "template.html"
   ],
   "styles": [
-    "card-viewer.css"
+    "cardviewer.css"
   ]
 }

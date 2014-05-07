@@ -1,0 +1,20 @@
+{
+  "name": "login",
+  "repo": "cuestack/login",
+  "description": "Login modules that pops up fullscreen",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "files":["views"],
+  "scripts": [
+    "index.js",
+    "loginController.js",
+    "loginDirective.js"
+  ],
+  "styles": [
+    "login.css"
+  ]
+}

@@ -10,7 +10,7 @@ var path = require('path');
 var cons = require('consolidate')
 
 //import all lib stuff
-var routes = require('./lib/routes');
+var login_routes = require('./lib/login/routes');
 
 var app = express();
 
@@ -20,8 +20,8 @@ var app = express();
 app.set('port', process.env.PORT || 3000);
 
 app.engine("html",cons.ejs); //uses the consolidate module to force express to use html as rendering engine
-app.set('view engine', 'html'); // sets view engine to plain html
-app.set('views', path.join(__dirname, 'public')); //sets the public directory as view folder which res.render() uses
+app.set('views engine', 'html'); // sets views engine to plain html
+app.set('views', path.join(__dirname, 'public')); //sets the public directory as views folder which res.render() uses
 app.use(express.favicon("public/favicon.ico")); //this is crucial or else it will use the favicon of connect module
 app.use(express.logger('dev'));
 app.use(express.json());
@@ -39,6 +39,8 @@ if ('development' == app.get('env')) {
 
 //this is where you should add all route definitions
 app.get('/', function(req,res){res.render('index')});
+app.get('/signup',function(req,res){res.render('signup')})
+app.post('/login',login_routes.login)
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('starting Preptitude App......listening on port ' + app.get('port'));

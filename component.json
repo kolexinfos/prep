@@ -4,7 +4,10 @@
   "description": "Preptitude Client App",
   "version": "0.0.1",
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "component/jquery": "*",
+    "component/underscore": "*"
+  },
   "development": {},
   "license": "MIT",
   "main": "frontend.js",
@@ -13,10 +16,13 @@
   ],
   "paths":["lib"],
   "local":[
+      "login",
+      "signup",
       "app",
+      "home",
       "routes",
       "question-editor",
-      "card-viewer",
+      "cardviewer",
       "api",
       "ui-theme"
   ]

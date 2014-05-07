@@ -1,0 +1,19 @@
+#signup-nav{
+    background-color: orange;
+    padding: 20px;
+}
+
+#signup
+{
+    color: #000000;
+}
+
+.fb_btn{
+    background: linear-gradient(to bottom, #175985,#246199);
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(243, 243, 243);
+    border: 1px solid #FFFFFF;
+    border-radius: 7px;
+    text-shadow: 1px 1px 1px rgb(46, 46, 46);
+}

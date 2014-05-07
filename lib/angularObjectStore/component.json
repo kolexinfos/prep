@@ -1,0 +1,14 @@
+{
+  "name": "angularObjectStore",
+  "repo": "cuestack/component-angularObjectStore",
+  "description": "Agular JS Modules that uses IndexedDB or Localstorage to store object",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
